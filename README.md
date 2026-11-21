@@ -11,6 +11,7 @@ What it does
 - Records stock movements (IN / OUT) in a transactions table, with a dropdown to keep entries consistent.
 - Calculates total in, total out and current stock for each product automatically.
 - Compares current stock with target stock and labels each product Good, Low Stock or Out Of Stock.
+- Colour-codes each stock status with conditional formatting (amber for Low Stock, red for Out Of Stock, green for Good), so problem items stand out at a glance and the colours update when movements are entered.
 - Calculates how many units to reorder.
 - Shows the results in a Power BI dashboard with stock status cards, a status chart, a current vs target chart and a reorder table, filtered by a stock status slicer.
 
@@ -45,4 +46,4 @@ Dashboard insights
 
 The inventory has 12 products: 2 Good, 9 Low Stock and 1 Out Of Stock. Most items are below target, and the reorder table shows how many units to order for each product.
 
-Skills: Excel Tables, SUMIFS, IFS, MAX, data validation, Power BI, dashboard design
+Skills: Excel Tables, SUMIFS, IFS, MAX, data validation, conditional formatting, Power BI, dashboard design
